@@ -6,7 +6,7 @@ import { createClient } from "@supabase/supabase-js";
 //    Settings → API → Project URL y anon public key
 // ─────────────────────────────────────────────────────────────────
 const SUPABASE_URL  = "https://cmzjbtwpiigezmvfzeai.supabase.co";
-const SUPABASE_ANON = "TU_ANON_PUBLIC_KEY";
+const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNtempidHdwaWlnZXptdmZ6ZWFpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc3MjE3NzksImV4cCI6MjA5MzI5Nzc3OX0.zz59AcG-Rxd8-5EgEo8R8hluTdNmPPwUbbsxBP_xK7k";
 const sb = createClient(SUPABASE_URL, SUPABASE_ANON);
 
 // ─── Helpers ──────────────────────────────────────────────────────
