@@ -5,7 +5,7 @@ import { createClient } from "@supabase/supabase-js";
 // 🔧 CONFIGURACIÓN — reemplaza con tus credenciales de Supabase
 //    Settings → API → Project URL y anon public key
 // ─────────────────────────────────────────────────────────────────
-const SUPABASE_URL  = "https://TU_PROJECT_ID.supabase.co";
+const SUPABASE_URL  = "https://cmzjbtwpiigezmvfzeai.supabase.co";
 const SUPABASE_ANON = "TU_ANON_PUBLIC_KEY";
 const sb = createClient(SUPABASE_URL, SUPABASE_ANON);
 
